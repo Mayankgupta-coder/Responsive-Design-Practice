@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>My Website</title>
+      <style>
+
+*/
+          
+          hr
+          {
+              height:90px;
+          }
+          .div
+          {
+             margin-left:140px;
+             border-bottom:2px solid grey;
+              width:70%;
+              height:80px;
+              font-style: oblique;
+          }
+
+          /* #mydiv
+          {
+             display:flex;
+              flex-direction: row;
+          } */
+
+          #image
+          {
+              float: left;
+              margin-right: 30px;
+          }
+          #text
+          {
+             display: flex;
+              
+          }
+          .div
+          {
+              height:430px;
+              width:80%;
+             
+/*              background-color:skyblue;*/
+          }
+          #circle
+          {
+                 
+              height:200px;
+              width:80%;
+              
+            display: flex;
+              flex-direction:row;
+              flex-wrap: wrap;
+              margin-top: 20px;
+              margin-left:140px;
+          
+          }
+          .circularimage
+          {
+
+          display: inline-block;
+              margin: auto;
+              margin-top: 10px;
+          }
+          
+          .card-img-top
+          {
+            height:250px;
+          
+          }
+          #book
+          {
+              height:430px;
+              width:80%;
+             
+              background-color: aqua;
+            display: flex;
+              flex-direction:row;
+              flex-wrap: wrap;
+              margin-top:50px;
+              margin-left:140px;
+              margin-bottom: 20px;
+          }
+          #book .card
+          {
+              display: inline-block;
+              margin: auto;
+              width:10px;
+              margin-top: 30px;
+          }
+         
+
+         @media screen and (max-width:736px)
+         {
+           #book
+           {
+             height:76rem;
+             width:80%;
+             
+             background-color: aqua;
+            display: flex;
+              flex-direction:row;
+              flex-wrap: wrap;
+              margin-top:50px;
+              margin-left:20px;
+              margin-bottom: 20px;
+           }
+         }
+         @media screen and (min-width:737px) and (max-width:1096px)
+         {
+           #book
+           {
+             height:55rem;
+             width:80%;
+             
+             background-color: aqua;
+            display: flex;
+              flex-direction:row;
+              flex-wrap: wrap;
+              margin-top:50px;
+              margin-left:140px;
+              margin-bottom: 20px;
+           }
+         }
+         @media screen and (min-width:561px) and (max-width:737px)
+         {
+           #book
+           {
+             height:80rem;
+             width:80%;
+             
+             background-color: aqua;
+            display: flex;
+              flex-direction:row;
+              flex-wrap: wrap;
+              margin-top:50px;
+              margin-left:140px;
+              margin-bottom: 20px;
+           }
+         }
+         @media screen and (max-width:380px)
+         {
+          #circle
+          {
+                 
+              height:35rem;
+              width:80%;
+              
+            display: flex;
+              flex-direction:row;
+              flex-wrap: wrap;
+              margin-top: 20px;
+              margin-left:20px;
+          
+          }
+         }
+         @media screen and (min-width:381px) and (max-width:560px)
+         {
+          #circle
+          {
+                 
+              height:25rem;
+              width:80%;
+              
+            display: flex;
+              flex-direction:row;
+              flex-wrap: wrap;
+              margin-top: 20px;
+              margin-left:20px;
+          
+          }
+         }
+
+         @media screen and (max-width:360px)
+         {
+          #circle
+          {
+                 
+              height:35rem;
+              width:80%;
+              
+            display: flex;
+              flex-direction:row;
+              flex-wrap: wrap;
+              margin-top: 20px;
+              margin-left:20px;
+          
+          }
+         }
+
+         @media screen and (max-width:560px)
+         {
+         .div
+          {
+             margin-left:20px;
+             border-bottom:2px solid grey;
+              width:70%;
+              height:45rem;
+              font-style: oblique;
+          }
+/*
+          #mydiv
+          {
+             display:flex;
+              flex-direction: row;
+          }
+*/
+          #image
+          {
+              display:block;
+              margin-right: 30px;
+          }
+          #text
+          {
+             display: inline-block;
+             margin-left: 20px;
+             margin-top:20px;
+              
+          }
+         }
+
+         @media screen and (min-width:561px) and (max-width:642px)
+         {
+          .div
+          {
+             margin-left:140px;
+             border-bottom:2px solid grey;
+              width:70%;
+              height:40rem;
+              font-style: oblique;
+          }
+/*
+          #mydiv
+          {
+             display:flex;
+              flex-direction: row;
+          }
+*/
+          #image
+          {
+              display:block;
+              margin-right: 30px;
+          }
+          #text
+          {
+             display: inline-block;
+             margin-left: 20px;
+             margin-top:20px;
+              
+          }
+         }
+      </style>
+  </head>
+  <body>
+<!--      Navbar-->
+     
+   <div class="div">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ml-5" >
+      <a class="navbar-brand" href="#"><b>99Design</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+     <li class="nav-item">
+          <a class="nav-link" href="#"><b>Get a design</b></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#"><b>How it works</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><b>Find a designer</b></a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#"><b>Agencies</b></a>
+      </li>
+<!--
+        <li class="nav-item" >
+       
+      <img src="https://www.netclipart.com/pp/m/84-848338_cells-clipart-mobile-number-phone-number-icon-png.png" class="mobile"> 
+      </li>
+-->
+    </ul>
+  </div>
+</nav>
+  
+      <hr>
+       
+       <div id="respdiv">
+       <div id="mydiv">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRloGP2Vvoe1pBEE936JO5wFEABzDJgUe7TaA&usqp=CAU" id="image">
+           </div>
+           <div id="text"><p>A book is a medium for recording information in the form of writing or images, typically composed of many pages (made of papyrus, parchment, vellum, or paper) bound together and protected by a cover.[1] The technical term for this physical arrangement is codex (plural, codices). In the history of hand-held physical supports for extended written compositions or records, the codex replaces its predecessor, the scroll. A single sheet in a codex is a leaf and each side of a leaf is a page.
+</p></div>
+       </div>
+       </div>
+          
+      <div id="circle">
+      <div class="circularimage"><img src="data:image/png;base64,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"></div>
+          <div class="circularimage"><img src="data:image/png;base64,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"></div>
+          <div class="circularimage"><img src="data:image/png;base64,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"></div>
+          
+          
+      </div>
+      
+      <div id="book">
+         
+          <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRloGP2Vvoe1pBEE936JO5wFEABzDJgUe7TaA&usqp=CAU" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+          <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRloGP2Vvoe1pBEE936JO5wFEABzDJgUe7TaA&usqp=CAU" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+          <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRloGP2Vvoe1pBEE936JO5wFEABzDJgUe7TaA&usqp=CAU" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+         
+        
+          
+          </div>
+      
+      
+  </body>
+</html>
