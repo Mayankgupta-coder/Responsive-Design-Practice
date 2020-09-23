@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,6 +30,7 @@
              border-bottom:2px solid grey;
               width:70%;
               height:80px;
+              height:auto;
               font-style: oblique;
           }
 
@@ -36,7 +39,7 @@
              display:flex;
               flex-direction: row;
           } */
-
+          
           #image
           {
               float: left;
@@ -84,7 +87,7 @@
           {
               height:430px;
               width:80%;
-             
+             height: auto;
               background-color: aqua;
             display: flex;
               flex-direction:row;
@@ -92,6 +95,7 @@
               margin-top:50px;
               margin-left:140px;
               margin-bottom: 20px;
+              transition: all 2s ease-in;
           }
           #book .card
           {
@@ -101,14 +105,18 @@
               margin-top: 30px;
           }
          
-
+          #book:hover
+          {
+           background-color:red;
+          
+          }
          @media screen and (max-width:736px)
          {
            #book
            {
              height:76rem;
              width:80%;
-             
+             height: auto;
              background-color: aqua;
             display: flex;
               flex-direction:row;
@@ -124,7 +132,7 @@
            {
              height:55rem;
              width:80%;
-             
+             height: auto;
              background-color: aqua;
             display: flex;
               flex-direction:row;
@@ -140,7 +148,7 @@
            {
              height:80rem;
              width:80%;
-             
+             height: auto;
              background-color: aqua;
             display: flex;
               flex-direction:row;
@@ -209,6 +217,7 @@
               width:70%;
               height:45rem;
               font-style: oblique;
+               height:auto;
           }
 /*
           #mydiv
@@ -240,6 +249,7 @@
               width:70%;
               height:40rem;
               font-style: oblique;
+               height:auto;
           }
 /*
           #mydiv
@@ -335,11 +345,23 @@
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
+            <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRloGP2Vvoe1pBEE936JO5wFEABzDJgUe7TaA&usqp=CAU" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+            <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRloGP2Vvoe1pBEE936JO5wFEABzDJgUe7TaA&usqp=CAU" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
          
         
           
           </div>
       
-      
+<div></div>
   </body>
 </html>
